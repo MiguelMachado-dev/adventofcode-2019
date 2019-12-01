@@ -7,6 +7,7 @@ Advent of Code 2019 🎄 JavaScript Solutions by
 |
 [Instagram](https://www.instagram.com/oMigtito)
 
+[![Build Status](https://github.com/mmcodingjs/adventofcode-2019/workflows/build/badge.svg)](https://github.com/mmCodingjs/adventofcode-2019/actions)
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 ## What is Advent of Code?
@@ -26,3 +27,7 @@ The Elves quickly load you into a spacecraft and prepare to launch.
 | Day                                                                                                                                                               | Part One | Part Two |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------: | :------: |
 | ✔ [Day 1: The Tyranny of the Rocket Equation](https://github.com/mmCodingjs/adventofcode-2019/tree/master/Day%201%20The%20Tyranny%20of%20the%20Rocket%20Equation) |    🌟    |    🌟    |
+
+## Running Tests
+
+Each day contains its own set of tests. To run them type `npm test`.
