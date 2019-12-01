@@ -1,5 +1,5 @@
 const fs = require("fs");
-const inputFile = "input.txt";
+const inputFile = "./day-1-tyranny-of-rocket-equation/input.txt";
 
 // Part One
 function partOne() {
@@ -7,7 +7,9 @@ function partOne() {
   // Use trim to avoid any extra newlines being parsed as NaN by parseInt
   // Create an array of the masses from the input file
   let masses = fs
-    .readFileSync(inputFile, { encoding: "utf-8" })
+    .readFileSync(inputFile, {
+      encoding: "utf-8"
+    })
     .trim()
     .split("\n");
   for (let i = 0; i < masses.length; i++) {
@@ -16,4 +18,5 @@ function partOne() {
   return total_fuel;
 }
 
+console.log(partOne());
 module.exports = partOne;

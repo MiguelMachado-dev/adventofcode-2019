@@ -1,5 +1,5 @@
 const fs = require("fs");
-const inputFile = "input.txt";
+const inputFile = "./day-1-tyranny-of-rocket-equation/input.txt";
 
 // Part Two
 function partTwo() {
