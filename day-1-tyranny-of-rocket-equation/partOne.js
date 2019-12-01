@@ -1,4 +1,4 @@
-var fs = require("fs");
+const fs = require("fs");
 const inputFile = "input.txt";
 
 // Part One
@@ -17,5 +17,3 @@ function partOne() {
 }
 
 module.exports = partOne;
-
-console.log(partOne());
