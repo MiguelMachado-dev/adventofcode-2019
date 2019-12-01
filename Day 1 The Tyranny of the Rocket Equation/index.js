@@ -1,9 +1,13 @@
-/**
- * Running tests
- */
+const fs = require("fs");
+const readline = require("readline");
 
-const mass = 11;
-const fuel = Math.floor(mass / 3) - 2;
+const readInterface = readline.createInterface({
+  input: fs.createReadStream("./input.txt"),
+  output: process.stdout,
+  console: false
+});
 
-// Expect to be: 1
-console.log(fuel);
+readInterface.on("line", function(line) {
+  const fuel = Math.floor(line / 3) - 2;
+  console.log(`${fuel}`);
+});
