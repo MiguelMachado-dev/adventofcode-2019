@@ -1,4 +1,4 @@
-var fs = require("fs");
+const fs = require("fs");
 const inputFile = "input.txt";
 
 // Part Two
@@ -21,4 +21,4 @@ function partTwo() {
   return total_fuel;
 }
 
-console.log(partTwo());
+module.exports = partTwo;
