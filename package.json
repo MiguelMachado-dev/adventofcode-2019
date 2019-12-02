@@ -9,11 +9,10 @@
   "scripts": {
     "test": "jest"
   },
-  "jest": {
-    "coverageDirectory": "./coverage/",
-    "collectCoverage": true
-  },
   "devDependencies": {
     "jest": "^24.9.0"
+  },
+  "dependencies": {
+    "@types/jest": "^24.0.23"
   }
 }
