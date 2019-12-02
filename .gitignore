@@ -1,3 +1,6 @@
+# testing
+/__tests__/coverage
+
 results.txt
 node_modules
 haters
