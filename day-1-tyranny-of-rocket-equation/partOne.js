@@ -18,5 +18,4 @@ function partOne() {
   return total_fuel;
 }
 
-console.log(partOne());
 module.exports = partOne;
