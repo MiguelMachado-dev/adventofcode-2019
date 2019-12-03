@@ -1,7 +1,7 @@
 # advent-of-code-2019
 
 Advent of Code 2019 🎄 JavaScript Solutions by
-`@mmcodingjs` 
+`@mmcodingjs`
 |
 [Twitter](https://twitter.com/oMigtito)
 |
@@ -27,6 +27,7 @@ The Elves quickly load you into a spacecraft and prepare to launch.
 | Day                                                                                                                                                               | Part One | Part Two |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------: | :------: |
 | ✔ [Day 1: The Tyranny of the Rocket Equation](https://github.com/mmCodingjs/adventofcode-2019/tree/master/Day%201%20The%20Tyranny%20of%20the%20Rocket%20Equation) |    🌟    |    🌟    |
+| ✔ [Day 2: 1202 Program Alarm](https://github.com/mmCodingjs/adventofcode-2019/tree/master/day-2-program-alarm)                                                    |    🌟    |    🌟    |
 
 ## Running Tests
 
